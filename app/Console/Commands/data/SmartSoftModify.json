@@ -1,0 +1,194 @@
+{
+    "ProviderGames": [
+        {
+            "GameCode": "smartsoft-viking",
+            "GameName": "Viking",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/500x500_Vikings.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-aztec",
+            "GameName": "Aztec",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/500x500_Aztek.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-samurai",
+            "GameName": "Samurai",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/game_sites_media\/06_Samurai.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-moonstone",
+            "GameName": "MoonStone",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/500x500_-Moon_Stone.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-apollo",
+            "GameName": "Apollo",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/game_sites_media\/06_Apollo.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-blazinghot",
+            "GameName": "Burning Ice",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/game_sites_media\/06_Burning_Ice.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-evolution",
+            "GameName": "Evolution",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/game_sites_media\/06_Evolution.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-blazinghot10",
+            "GameName": "Burning Ice 10",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/game_sites_media\/06_Burning_Ice_10.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-blazinghot40",
+            "GameName": "Burning Ice 40",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/game_sites_media\/003_mWOxzEx.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-vampires",
+            "GameName": "Vampires",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/Vampires.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-multihot5",
+            "GameName": "Multi Hot 5",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/multihot5_500.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-wildjungle",
+            "GameName": "Wild Jungle",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/1x1_499x499_Wild-Jungle.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-geniesbonanza",
+            "GameName": "Genie's Bonanza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/500x500_iRQkC9G.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-multihotways",
+            "GameName": "Multi Hot Ways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/500x500_FyDAL8r.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-foxyhot20",
+            "GameName": "Foxy Hot 20",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/500_iiMaFUQ.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-wildsandgods",
+            "GameName": "Wilds&Gods",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/500_Nk9SZoc_SWBJy2n.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        },
+        {
+            "GameCode": "smartsoft-bookoffunturia",
+            "GameName": "Book of Futuria",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/mstatic-sgp1.mrslotty.com\/game_sites_media\/500_VMC0z1g.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 1,
+            "product_id": 45
+        }
+    ],
+    "GamesList": null,
+    "ErrorCode": 0,
+    "ErrorMessage": null
+}

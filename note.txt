@@ -1,0 +1,36 @@
+// to remove laravel log
+php -r "file_put_contents('/var/www/html/shwe_dragon_slot_a/storage/logs/laravel.log', '');"
+// created dev branch for kzt
+
+// Route::group(['prefix' => 'report'], function () {
+    // Route::get('index', [TestReportController::class, 'index'])->name('report.index');
+    // Route::get('view/{user_name}', [TestReportController::class, 'view'])->name('report.view');
+    // Route::get('show/{product_code}', [TestReportController::class, 'show'])->name('report.show');
+    // Route::get('detail/{user_id}/{product_code}', [TestReportController::class, 'detail'])->name('report.detail');
+    // });
+| Asia Gaming        | Slot (1)           |
+| Asia Gaming        | Live Casino (2)    |
+| Evolution Gaming   | Live Casino (2)    |
+| Pragmatic Play     | Slot (1)           |
+| Pragmatic Play     | Live Casino (2)    |
+| PG Soft            | Slot (1)           |
+| CQ9                | Slot (1)           |
+| CQ9                | Fishing (8)        |
+| SBO                | Sport Book (3)     |
+| Joker              | Slot (1)           |
+| Joker              | Fishing (8)        |
+| YEE Bet            | Live Casino (2)    |
+| Sexy Gaming        | Live Casino (2)    |
+| Real Time Gaming   | Slot (1)           |
+| Yggdrasil          | Slot (1)           |
+| Yggdrasil          | Live Casino (2)    |
+| Spade Gaming       | Slot (1)           |
+| Spade Gaming       | Fishing (8)        |
+| Vivo Gaming        | Slot (1)           |
+| Vivo Gaming        | Live Casino (2)    |
+| King 855           | Live Casino (2)    |
+| Habanero           | Slot (1)           |
+| PlayStar           | Slot (1)           |
+| PlayStar           | Fishing (8)        |
+| TrueLab 
+    Live22             | Slot(1)

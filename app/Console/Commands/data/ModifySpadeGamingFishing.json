@@ -1,0 +1,51 @@
+{
+    "ProviderGames": [
+        {
+            "GameCode": "F-SF01",
+            "GameName": "Fishing God",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "http:\/\/prodmd.9977997.com\/Image\/SpadeGaming\/en\/F-SF01.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 8,
+            "product_id": 7
+        },
+        {
+            "GameCode": "F-SF02",
+            "GameName": "Fishing War",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "http:\/\/prodmd.9977997.com\/Image\/SpadeGaming\/en\/F-SF02.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 8,
+            "product_id": 7
+        },
+        {
+            "GameCode": "F-ZP01",
+            "GameName": "Zombie Party",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "http:\/\/prodmd.9977997.com\/Image\/SpadeGaming\/en\/F-ZP01.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 8,
+            "product_id": 7
+        },
+        {
+            "GameCode": "F-AH01",
+            "GameName": "Alien Hunter",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "http:\/\/prodmd.9977997.com\/Image\/SpadeGaming\/en\/F-AH01.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 8,
+            "product_id": 7
+        }
+    ],
+    "GamesList": null,
+    "ErrorCode": 0,
+    "ErrorMessage": null
+}

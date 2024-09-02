@@ -1,0 +1,853 @@
+{
+    "ProviderGames": [
+        {
+            "GameCode": "roadrage00000000",
+            "GameName": "Road Rage",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/roadrage_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "fireinthehole000",
+            "GameName": "Fire in the Hole xBomb",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/fireinthehole_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "manhattanoeswild",
+            "GameName": "Manhattan Goes Wild",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/manhattanoeswild_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "deadwoodrip00000",
+            "GameName": "Deadwood RIP",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/deadwoodrip_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "therave000000000",
+            "GameName": "The Rave",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/therave_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "dasxboot00000000",
+            "GameName": "Das xBoot",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/dasxboot_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "karen00000000000",
+            "GameName": "Karen Maneater",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/karenmaneater_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "hotnudge00000000",
+            "GameName": "Hot Nudge",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/hotnudge_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "elpaso0000000000",
+            "GameName": "El Paso Gunfight xNudge",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/elpaso_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "folsomprison0000",
+            "GameName": "Folsom Prison",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/folsomprison_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "warriorgraveyard",
+            "GameName": "Warrior Graveyard xNudge",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/warriorgraveyard_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "iceiceyeti000000",
+            "GameName": "Ice Ice Yeti",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/iceiceyeti_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "possessed0000000",
+            "GameName": "Possessed",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/possessed_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "deadwood00000000",
+            "GameName": "Deadwood xNudge",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/deadwood_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "hot4cash00000000",
+            "GameName": "Hot 4 Cash",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/hot4cash_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "whacked000000000",
+            "GameName": "Whacked!",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/whacked_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "dragontribe00000",
+            "GameName": "Dragon Tribe",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/dragontribe_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "fireinthehole200",
+            "GameName": "Fire In The Hole 2",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/fireinthehole2_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "ugliestcatch0000",
+            "GameName": "Ugliest Catch",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/ugliestcatch_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "bonusbunnies0000",
+            "GameName": "Bonus Bunnies",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/bonusbunnies_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "gluttony00000000",
+            "GameName": "Gluttony",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/gluttony_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "thor000000000000",
+            "GameName": "Thor Hammer Time",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/thor_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "thecrypt00000000",
+            "GameName": "The Crypt",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/thecrypt_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "punkrocker000000",
+            "GameName": "Punk Rocker",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/punkrocker_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "buffalohunter000",
+            "GameName": "Buffalo Hunter",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/buffalohunter_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "immortalfruits00",
+            "GameName": "Immortal Fruits",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/immortalfruits_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "littlebighorn000",
+            "GameName": "Little Bighorn",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/littlebighorn_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "tombofnefertiti0",
+            "GameName": "Tomb of Nefertiti",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/tombofnefertiti_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "kitchendrqfrenzy",
+            "GameName": "Kitchen Drama BBQ Frenzy",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/kitchendrqfrenzy_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "bloodandshadow00",
+            "GameName": "Blood & Shadow",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/bloodandshadow_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "goldengenie00000",
+            "GameName": "Golden Genie & the Walking Wilds",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/goldengenie_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "bricksnake200000",
+            "GameName": "Brick Snake 2000",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/bricksnake2000_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "pearlharbor00000",
+            "GameName": "Pearl Harbor",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/pearlharbor_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "owls000000000000",
+            "GameName": "Owls",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/owls_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "milkyways0000000",
+            "GameName": "Milky Ways",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/milkyways_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "eastvswest000000",
+            "GameName": "East Coast vs West Coast",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/eastvswest_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "miserymining0000",
+            "GameName": "Misery Mining",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/miserymining_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "djpsycho00000000",
+            "GameName": "Dj Psycho",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/djpsycho_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "tombstonenomercy",
+            "GameName": "Tombstone No Mercy",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/tombstonenomercy_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "tractorbeam00000",
+            "GameName": "Tractor Beam",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/tractorbeam_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "poisoneve0000000",
+            "GameName": "Poison Eve",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/poisoneve_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "bountyhunters000",
+            "GameName": "Bounty Hunters xNudge",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/bountyhunters_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "truekult00000000",
+            "GameName": "True Kult",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/truekult_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "monkeysgold00000",
+            "GameName": "Monkey's Gold xPays",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/monkeysgold_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "fruits0000000000",
+            "GameName": "Fruits",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/fruits_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "remembergulag000",
+            "GameName": "Remember Gulag",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/remembergulag_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "sanquentin000000",
+            "GameName": "San Quentin xWays",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/sanquentin_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "dungeonquest0000",
+            "GameName": "Dungeon Quest",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/dungeonquest_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "legionx000000000",
+            "GameName": "Legion X",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/legionx_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "evilgoblins00000",
+            "GameName": "Evil Goblins xBomb",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/evilgoblins_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "apocalypse000000",
+            "GameName": "Apocalypse Super xNudge",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/apocalypse_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "mayanmagic000000",
+            "GameName": "Mayan Magic Wildfire",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/mayanmagic_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "gaelicgold000000",
+            "GameName": "Gaelic Gold",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/gaelicgold_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "harlequin0000000",
+            "GameName": "Harlequin Carnival",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/harlequincarnival_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "walkofshame00000",
+            "GameName": "Walk of Shame",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/walkofshame_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "tombstonerip0000",
+            "GameName": "Tombstone Rip",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/tombstonerip_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "pixiesvspirates0",
+            "GameName": "Pixies vs Pirates",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/pixiesvspirates_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "starstruck000000",
+            "GameName": "Starstruck",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/starstruck_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "disturbed0000000",
+            "GameName": "Disturbed",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/disturbed_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "thecreepyarnival",
+            "GameName": "The Creepy Carnival",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/thecreepyarnival_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "rockbottom000000",
+            "GameName": "Rock Bottom",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/rockbottom_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "punktoilet000000",
+            "GameName": "Punk Toilet",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/punktoilet_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "bookofshadows000",
+            "GameName": "Book Of Shadows",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/bookofshadows_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "landofthefree000",
+            "GameName": "Land Of The Free",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/landofthefree_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "kissmychainsaw00",
+            "GameName": "Kiss My Chainsaw",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/kissmychainsaw_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "loner00000000000",
+            "GameName": "Loner",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/loner_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "thecage000000000",
+            "GameName": "The Cage",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/thecage_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "benjikillinvegas",
+            "GameName": "Benji Killed in Vegas",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/benjikillinvegas_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "dday000000000000",
+            "GameName": "D Day",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/dday_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "xwayshoarder0000",
+            "GameName": "xWays Hoarder xSplit",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/xwayshoarder_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "truegrit00000000",
+            "GameName": "True Grit Redemption",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/truegritredemption_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "ninetofive000000",
+            "GameName": "Nine To Five",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/ninetofive_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "oktoberfest00000",
+            "GameName": "Oktoberfest",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/oktoberfest_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "kitchendrhimania",
+            "GameName": "Kitchen Drama: Sushi Mania",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/kitchendrhimania_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "beheaded00000000",
+            "GameName": "Beheaded",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/beheaded_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "spacedonkey00000",
+            "GameName": "Space Donkey",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/spacedonkey_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "tombofakhenaten0",
+            "GameName": "Tomb Of Akhenaten",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/tombofakhenaten_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "tombstone0000000",
+            "GameName": "Tombstone",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/tombstone_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "theborder0000000",
+            "GameName": "The Border",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/theborder_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "kennethmustdie00",
+            "GameName": "Kenneth Must Die",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/kennethmustdie_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "serial0000000000",
+            "GameName": "Serial",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/serial_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "punkrocker200000",
+            "GameName": "Punk Rocker 2",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/punkrocker2_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "casinowinspin000",
+            "GameName": "Casino Win Spin",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/casinowinspin_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "barbarianfury000",
+            "GameName": "Barbarian Fury",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/barbarianfury_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "bushidoways00000",
+            "GameName": "Bushido Ways xNudge",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/bushidoways_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "roadkill00000000",
+            "GameName": "Roadkill",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/roadkill_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "infectious500000",
+            "GameName": "Infectious 5 xWays",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/infectious5_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "wixx000000000000",
+            "GameName": "WiXX",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/wixx_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "coinsoffortune00",
+            "GameName": "Coins of Fortune",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/coinsoffortune_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "mental0000000000",
+            "GameName": "Mental",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/mental_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "devilscrossroad0",
+            "GameName": "Devil's Crossroad",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/devilscrossroad_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "teslajolt0000000",
+            "GameName": "Tesla Jolt",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/teslajolt_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "deadcanary000000",
+            "GameName": "Dead Canary",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/deadcanary_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        },
+        {
+            "GameCode": "jingleballs00000",
+            "GameName": "Jingle Balls",
+            "GameType": 1,
+            "Category": "slots",
+            "ImageUrl": "https://efbb.elivegame6633.com/tablePicture/jingleballs_med?size=XL",
+            "ProviderGameType": null,
+            "ProviderCode": "nlc"
+        }
+    ],
+    "GamesList": null,
+    "ErrorCode": 0,
+    "ErrorMessage": null
+}

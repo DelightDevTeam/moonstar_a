@@ -1,0 +1,194 @@
+{
+    "ProviderGames": [
+        {
+            "GameCode": "sw_live_erol_atom",
+            "GameName": "Atom Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_GJqNWRkX_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_ro_a01bac",
+            "GameName": "Baccarat A01",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_W4RkGRen_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_ro_a01bac_nc",
+            "GameName": "Baccarat A01 No Commission",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_W4RkGRen_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_ro_bjmax",
+            "GameName": "Blackjack Max",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_57RmaRwY_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_ro_blu_ro_atom",
+            "GameName": "Blue Atom Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_kx3ob8Be_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_ro_blu_ro",
+            "GameName": "Blue Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_kx3ob8Be_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_ro_gre_ro_atom",
+            "GameName": "Green Atom Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_v5R2Ln3k_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_ro_gre_ro",
+            "GameName": "Green Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_v5R2Ln3k_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_ro_jw",
+            "GameName": "Joker's Wheel",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "http:\/\/storage.googleapis.com\/lobby.stg1.m27613.com\/swgpro\/games\/posters\/sw\/en\/sw_ro_jw.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_ro_red_ro_atom",
+            "GameName": "Red Atom Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_W4RkGGRe_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_ro_red_ro",
+            "GameName": "Red Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_W4RkGGRe_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_ro_a03ro",
+            "GameName": "Roulette A03",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_z9R67BjP_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_ro_a03ro_atom",
+            "GameName": "Roulette Atom A03",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_z9R67BjP_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_live_erol_rush_atom",
+            "GameName": "Rush Atom Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_j2RKpaB7_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_live_erol_rush",
+            "GameName": "Rush Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_j2RKpaB7_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_ro_yel_ro_atom",
+            "GameName": "Yellow Atom Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_4DR4aLB1_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "GameCode": "sw_ro_yel_ro",
+            "GameName": "Yellow Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https:\/\/thumbs-gcp.swlg01.com\/romania_4DR4aLB1_thumb_428x268.webp",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 2,
+            "product_id": 19
+        }
+    ],
+    "GamesList": null,
+    "ErrorCode": 0,
+    "ErrorMessage": null
+}

@@ -1,0 +1,73 @@
+{
+    "ProviderGames": [
+        {
+            "GameCode": "PSF-ON-00001",
+            "GameName": "HAIDILAO",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "http:\/\/prodmd.9977997.com\/Image\/PlayStar\/en\/PSF-ON-00001.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 8,
+            "product_id": 9
+        },
+        {
+            "GameCode": "PSF-ON-00002",
+            "GameName": "SPICY FISHING",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "http:\/\/prodmd.9977997.com\/Image\/PlayStar\/en\/PSF-ON-00002.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 8,
+            "product_id": 9
+        },
+        {
+            "GameCode": "PSF-ON-00004",
+            "GameName": "FISHING FOODIE",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "http:\/\/prodmd.9977997.com\/Image\/PlayStar\/en\/PSF-ON-00004.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 8,
+            "product_id": 9
+        },
+        {
+            "GameCode": "PSF-ON-00005",
+            "GameName": "FISHING IN THAILAND",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "http:\/\/prodmd.9977997.com\/Image\/PlayStar\/en\/PSF-ON-00005.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 8,
+            "product_id": 9
+        },
+        {
+            "GameCode": "PSF-ON-00006",
+            "GameName": "FISHING FA FA FA",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "http:\/\/prodmd.9977997.com\/Image\/PlayStar\/en\/PSF-ON-00006.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 8,
+            "product_id": 9
+        },
+        {
+            "GameCode": "PSF-ON-00007",
+            "GameName": "OCEAN KING'S TREASURE",
+            "GameType": 8,
+            "Category": "Games",
+            "ImageUrl": "http:\/\/prodmd.9977997.com\/Image\/PlayStar\/en\/PSF-ON-00007.png",
+            "ProviderGameType": null,
+            "ProviderCode": null,
+            "game_type_id": 8,
+            "product_id": 9
+        }
+    ],
+    "GamesList": null,
+    "ErrorCode": 0,
+    "ErrorMessage": null
+}

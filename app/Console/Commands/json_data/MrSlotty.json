@@ -1,0 +1,484 @@
+{
+    "ProviderGames": [
+        {
+            "GameCode": "shehebeach",
+            "GameName": "She/He_beach",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/shehebeach_pN0ICE2.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "marsdinner",
+            "GameName": "MarsDinner",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/marsdinner.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "wild7fruits",
+            "GameName": "Wild7Fruits",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/wild7fruits.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "trendyskulls",
+            "GameName": "Trendy Skulls",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/trendyskulls.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "treasuresofegypt",
+            "GameName": "Treasures of Egypt",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/treasuresofegypt.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "trollfaces",
+            "GameName": "Troll Faces",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/trollfaces.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "hotfruits",
+            "GameName": "HOT Fruits",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/hotfruits.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "golden7fruits",
+            "GameName": "Golden7Fruits",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/golden7fruits.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "777diamonds",
+            "GameName": "777 Diamonds",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/777diamonds.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "memefaces",
+            "GameName": "Meme Faces",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/memefaces.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "cleopatra18",
+            "GameName": "Cleopatra 18+",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/cleopatra18_fuz5owq.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "monsterinos",
+            "GameName": "Monsterinos",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/monsterinos.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "superdragonsfire",
+            "GameName": "Super Dragons Fire",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/superdragonsfire.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "goldenjokerdice",
+            "GameName": "Golden Joker Dice",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/goldenjokerdice_epxaxF2.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "zeusthethunderer2",
+            "GameName": "Zeus the Thunderer II",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/zeusthethunderer2.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "monsterbirds",
+            "GameName": "Monster Birds",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/monsterbirds.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "aztecpyramids",
+            "GameName": "Aztec Pyramids",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/aztecpyramids.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "zeusthethunderer",
+            "GameName": "Zeus the Thunderer",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/zeusthethunderer.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "sheheclub",
+            "GameName": "She/He_club",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/sheheclub.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "lionthelord",
+            "GameName": "Lion The Lord",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/lionthelord.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "hothoney22vip",
+            "GameName": "HotHoney 22 VIP",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/hothoney22vip.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "goldminers",
+            "GameName": "Gold Miners",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/goldminers.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "mermaidgold",
+            "GameName": "Mermaid Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/mermaidgold.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "enchanted7s",
+            "GameName": "Enchanted 7s",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/enchanted7s.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vegasafterparty",
+            "GameName": "Vegas AfterParty",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/vegasafterparty.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "unicorngems",
+            "GameName": "Unicorn Gems",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/unicorngems.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "crazyhalloween",
+            "GameName": "Crazy Halloween",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/crazyhalloween.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "electric7fruits",
+            "GameName": "Electric7Fruits",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/electric7fruits_unwJIpr.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "royal7fruits",
+            "GameName": "Royal7Fruits",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/royal7fruits.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "classic7fruits",
+            "GameName": "Classic7Fruits",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/classic7fruits.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "tropical7fruits",
+            "GameName": "Tropical7Fruits",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/tropical7fruits.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "nomorefruits",
+            "GameName": "No More Fruits",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/nomorefruits.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "emojislot",
+            "GameName": "Emoji Slot",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/emojislot.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "jokercards",
+            "GameName": "Joker Cards",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/jokercards.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "fruitcocktail7",
+            "GameName": "FruitCocktail7",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/fenitcocktail7.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "jokerdice",
+            "GameName": "Joker Dice",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/jokerdice.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "pandameme",
+            "GameName": "PandaMEME",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/pandameme.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "hothoney22",
+            "GameName": "HotHoney 22",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/hothoney22.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "dolphinsgold",
+            "GameName": "Dolphins Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/dolphinsgold.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "insects18",
+            "GameName": "Insects 18+",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/insects18.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "xmasparty",
+            "GameName": "Xmas Party",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/xmasparty_TpoqK6U.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "jungletreasure",
+            "GameName": "JungleTreasure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/jungletreasure.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "fruitsanddiamonds",
+            "GameName": "Fruits&Diamonds",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/fruitsanddiamonds.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "50linesofwar",
+            "GameName": "50 Lines Of War",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/50linesofwar.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "agentxmission",
+            "GameName": "Agent X Mission",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/agentxmission_500x500.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "cryptomatrix",
+            "GameName": "CryptoMatrix",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/cryptomatrix.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "wildvegas",
+            "GameName": "WildVegas",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/wildvegas_500x500_0zmWS8r.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "gemstower",
+            "GameName": "Gems Tower",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/gemstower.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "draculasgems",
+            "GameName": "Dracula's Gems",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/draculasgems_MUIuKtz_7bfo44O.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "godsofegypt",
+            "GameName": "Gods Of Egypt",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/godsofegypt_wBdWZqT.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "quarantine",
+            "GameName": "Quarantine",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/quarantine_Ox4VOLk.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "licensetowin",
+            "GameName": "License To Win",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/licensetowin_afYEDZu_qlM4I88.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "gloryofrome",
+            "GameName": "Glory Of Rome",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://mstatic-sgp1.mrslotty.com/game_sites_media/gloryofrome_Uj0Njra_Sbk53DY.jpg",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        }
+    ],
+    "GamesList": null,
+    "ErrorCode": 0,
+    "ErrorMessage": null
+}
