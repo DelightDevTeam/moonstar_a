@@ -94,42 +94,42 @@ class ProductTableSeeder extends Seeder
                 'name' => 'BGaming',
                 'short_name' => 'BGaming',
                 'order' => 19,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1060',
                 'name' => 'Wazdan',
                 'short_name' => 'Wazdan',
                 'order' => 20,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1062',
                 'name' => 'Fazi',
                 'short_name' => 'FAZI',
                 'order' => 21,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1063',
                 'name' => 'Play Pearls',
                 'short_name' => 'Play Pearls',
                 'order' => 22,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1064',
                 'name' => 'Net Game',
                 'short_name' => 'Net Game',
                 'order' => 23,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1065',
                 'name' => 'Kiron',
                 'short_name' => 'Kiron',
                 'order' => 24,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1067',
@@ -143,7 +143,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'Boongo',
                 'short_name' => 'Boongo',
                 'order' => 26,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1077',
@@ -157,42 +157,42 @@ class ProductTableSeeder extends Seeder
                 'name' => 'JDB',
                 'short_name' => 'JDB',
                 'order' => 4,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1086',
                 'name' => 'GENESIS',
                 'short_name' => 'GENESIS',
                 'order' => 30,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1097',
                 'name' => 'Funta Gaming',
                 'short_name' => 'FG',
                 'order' => 31,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1098',
                 'name' => 'Felix Gaming',
                 'short_name' => 'FelixGaming',
                 'order' => 32,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1101',
                 'name' => 'ZeusPlay',
                 'short_name' => 'ZeusPlay',
                 'order' => 33,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1102',
                 'name' => 'KA Gaming',
                 'short_name' => 'KA',
                 'order' => 7,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1109',
@@ -206,7 +206,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'Gaming World',
                 'short_name' => 'GamingWorld',
                 'order' => 35,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1001',
@@ -221,7 +221,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'Evolution Gaming',
                 'short_name' => 'EG',
                 'order' => 37,
-                'status' => 0
+                'status' => 1
             ],
             [
                 'code' => '1004',
@@ -235,7 +235,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'PG Soft',
                 'short_name' => 'PGSoft',
                 'order' => 20,
-                'status' => 0
+                'status' => 1
             ],
             [
                 'code' => '1009',
@@ -249,21 +249,21 @@ class ProductTableSeeder extends Seeder
                 'name' => 'Sexy Gaming',
                 'short_name' => 'SexyGaming',
                 'order' => 38,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1023',
                 'name' => 'Real Time Gaming',
                 'short_name' => 'RealTimeGaming',
                 'order' => 39,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1091',
                 'name' => 'Jili',
                 'short_name' => 'JILI',
                 'order' => 3,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1038',
@@ -300,14 +300,14 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'SP',
                 'order' => 44,
                 'game_list_status' => '0',
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1084',
                 'name' => 'Advant Play',
                 'short_name' => 'AP',
                 'order' => 45,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1104',
@@ -336,7 +336,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'SmartSoft',
                 'short_name' => 'SmartSoft',
                 'order' => 9,
-                'status' => 1
+                'status' => 0
             ],
 
             [
@@ -351,14 +351,14 @@ class ProductTableSeeder extends Seeder
                 'name' => 'No Limit City',
                 'short_name' => 'No Limit City',
                 'order' => 51,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1147',
                 'name' => 'Big Time Gaming',
                 'short_name' => 'BigTimeGaming',
                 'order' => 52,
-                'status' => 1
+                'status' => 0
             ],
         ];
 
