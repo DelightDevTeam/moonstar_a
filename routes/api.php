@@ -42,7 +42,6 @@ Route::get('v1/validate', [AuthController::class, 'callback']);
 Route::get('gameTypeProducts/{id}', [GameController::class, 'gameTypeProducts']);
 Route::get('allGameProducts', [GameController::class, 'allGameProducts']);
 Route::get('gameType', [GameController::class, 'gameType']);
-//Route::get('gamelist/{product_id}/{game_type_id}', [GameController::class, 'gameList']);
 Route::get('hotgamelist', [GameController::class, 'HotgameList']);
 
 Route::post('Seamless/PullReport', [LaunchGameController::class, 'pullReport']);

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api\V1\Game;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\GameDetailResource;
 use App\Http\Resources\GameListResource;
+use App\Http\Resources\GameTypeResource;
 use App\Http\Resources\HotGameListResource;
 use App\Models\Admin\GameList;
 use App\Models\Admin\GameType;
@@ -16,9 +17,15 @@ class GameController extends Controller
 
     public function gameType()
     {
-        $gameType = GameType::where('status', 1)->get();
+        $gameType = GameType::with(['products' => function ($query) {
+                     $query->where('status',1);
+                     $query->orderBy('order', 'asc');
+                 }, 'gameLists' => function ($query) {
+                $query->where('hot_status',1);
+        }])->get();
 
-        return $this->success($gameType);
+//        return $this->success($gameType);
+        return $this->success(GameTypeResource::collection($gameType));
     }
 
     // public function gameTypeProducts($gameTypeID)
