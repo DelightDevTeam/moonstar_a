@@ -94,7 +94,7 @@ class AgentController extends Controller
         $agent->roles()->sync(self::AGENT_ROLE);
 
         if (isset($inputs['amount'])) {
-            app(WalletService::class)->transfer($master, $agent, $inputs['amount'], TransactionName::CreditTransfer);
+            app(WalletService::class)->transfer($master, $agent, $inputs['amount'], TransactionName::CreditTransfer, ['note' => $request->note]);
         }
 
         return redirect()->back()
@@ -214,7 +214,7 @@ class AgentController extends Controller
             }
 
             // Transfer money
-            app(WalletService::class)->transfer($admin, $agent, $request->validated('amount'), TransactionName::CreditTransfer);
+            app(WalletService::class)->transfer($admin, $agent, $request->validated('amount'), TransactionName::CreditTransfer, ['note' => $request->note]);
 
             return redirect()->back()->with('success', 'Money fill request submitted successfully!');
         } catch (Exception $e) {

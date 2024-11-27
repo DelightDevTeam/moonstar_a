@@ -15,8 +15,8 @@
   <link href="{{ asset('admin_app/assets/css/nucleo-icons.css')}}" rel="stylesheet" />
   <link href="{{ asset('admin_app/assets/css/nucleo-svg.css')}}" rel="stylesheet" />
   <!-- Font Awesome Icons -->
-  <script src="https://kit.fontawesome.com/b829c5162c.js" crossorigin="anonymous"></script>
-  <!-- Material Icons -->
+  <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">  <!-- Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <!-- CSS Files -->
   <link id="pagestyle" href="{{ asset('admin_app/assets/css/material-dashboard.css?v=3.0.6')}}" rel="stylesheet" />

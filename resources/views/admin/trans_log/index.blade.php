@@ -21,38 +21,50 @@
    <div class="card-header pb-0">
     <div class="d-lg-flex">
      <div>
-      <h5 class="mb-0">Debit Transfer Log</h5>
+      <h5 class="mb-0">Transfer Log</h5>
 
      </div>
      <div class="ms-auto my-auto mt-lg-0 mt-4">
+      <div class="ms-auto my-auto">
+
+      </div>
      </div>
     </div>
    </div>
    <div class="table-responsive">
     <table class="table table-flush" id="users-search">
      <thead class="thead-light">
-    <tr>
-        <th>Date</th>
-        <th>From User</th>
-        <th><i class="fas fa-right-left"></i></th>
-        <th>To User</th>
-        <th>Amount</th>
-    </tr>
-</thead>
-<tbody>
-    @foreach($transferLogs as $log)
+
         <tr>
-            <td>{{ $log->created_at->format('Y-m-d') }}</td>
-            <td>{{ optional($log->targetUser)->name }}</td>
-            {{-- <td class="text-danger">{{ $log->amountFloat }}</td> --}}
-              <td>
-               <img src="{{ asset('admin_app/assets/img/arrow.png')}}"  class="img-thumbnail" width="10" height="10" alt="arrow">
-              </td>
-            <td>{{ Auth::user()->name }}</td>
-            <td class="text-danger font-weight-bold">{{ abs($log->amountFloat) }}</td>
+            <th>Date</th>
+            <th>To User</th>
+            <th>Amount</th>
+            <th>Type</th>
+            <th>Note</th>
         </tr>
-    @endforeach
-</tbody>
+    </thead>
+    <tbody>
+        @foreach($transferLogs as $log)
+            <tr>
+                <td>
+                  {{ $log->created_at }}
+                </td>
+                <td>{{ $log->targetUser->name }}</td>
+                <td>
+                  <div class="d-flex align-items-center text-{{$log->type =='withdraw' ? 'success' : 'danger'}} text-gradient text-sm font-weight-bold ms-auto"> {{ abs($log->amountFloat)}}</div>
+                </td>
+                <td>
+                    @if($log->type == 'withdraw')
+                        <p class="text-success font-weight-bold">Deposit</p>
+                    @else
+                        <p class="text-danger font-weight-bold">Withdraw</p>
+                    @endif
+                </td>
+                <td>{{$log->note  == 'null' ? '' : $log->note}}</td>
+            </tr>
+        @endforeach
+    </tbody>
+
     </table>
    </div>
   </div>

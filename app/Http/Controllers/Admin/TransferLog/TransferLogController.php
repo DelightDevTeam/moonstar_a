@@ -18,7 +18,10 @@ class TransferLogController extends Controller
     public function index()
     {
         $this->authorize('transfer_log', User::class);
-        $transferLogs = Auth::user()->transactions()->with('targetUser')->latest()->paginate();
+        $transferLogs = Auth::user()->transactions()->with('targetUser')
+            ->whereIn('transactions.type', ['withdraw', 'deposit'])
+            ->whereIn('transactions.name', ['credit_transfer', 'debit_transfer'])
+            ->latest()->paginate();
 
         return view('admin.trans_log.index', compact('transferLogs'));
     }
@@ -31,34 +34,11 @@ class TransferLogController extends Controller
             '403 Forbidden | You cannot access this page because you do not have permission'
         );
 
-        $transferLogs = Auth::user()->transactions()->with('targetUser')->where('target_user_id', $id)->latest()->paginate();
+        $transferLogs = Auth::user()->transactions()->with('targetUser')
+            ->whereIn('transactions.type', ['withdraw', 'deposit'])
+            ->whereIn('transactions.name', ['credit_transfer', 'debit_transfer'])
+            ->where('target_user_id', $id)->latest()->paginate();
 
         return view('admin.trans_log.detail', compact('transferLogs'));
     }
-
-
-    public function depositTransaferLog()
-    {
-        $transferLogs = Auth::user()->transactions()
-            ->where('transactions.type', 'withdraw')
-            ->whereIn('transactions.name', ['credit_transfer', 'debit_transfer'])
-            ->with('targetUser')
-            ->orderBy('id', 'desc')
-            ->get();
-
-        return view('admin.trans_log.deposit_log', compact('transferLogs'));
-    }
-
-    public function withdrawTransaferLog()
-    {
-        $transferLogs = Auth::user()->transactions()
-            ->where('transactions.type', 'deposit')
-            ->whereIn('transactions.name', ['credit_transfer', 'debit_transfer'])
-            ->with('targetUser')
-            ->orderBy('id', 'desc')
-            ->get();
-
-        return view('admin.trans_log.withdraw_log', compact('transferLogs'));
-    }
-
 }

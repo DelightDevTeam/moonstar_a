@@ -59,6 +59,12 @@
       </a>
     </li>
     @endcan
+    <li class="nav-item ">
+      <a class="nav-link text-white " href="{{ route('admin.transferLog') }}">
+        <span class="sidenav-mini-icon">G L</span>
+        <span class="sidenav-normal  ms-2  ps-1"> TransferLog </span>
+      </a>
+    </li>
     <hr class="horizontal light mt-0">
     @can('admin_access')
     <li class="nav-item">
@@ -88,12 +94,12 @@
             </a>
           </li>
 
-{{--          <li class="nav-item ">--}}
-{{--            <a class="nav-link text-white " href="{{ route('admin.promotions.index') }}">--}}
-{{--              <span class="sidenav-mini-icon"> <i class="fas fa-gift"></i> </span>--}}
-{{--              <span class="sidenav-normal  ms-2  ps-1"> Promotions </span>--}}
-{{--            </a>--}}
-{{--          </li>--}}
+          {{-- <li class="nav-item ">--}}
+          {{-- <a class="nav-link text-white " href="{{ route('admin.promotions.index') }}">--}}
+          {{-- <span class="sidenav-mini-icon"> <i class="fas fa-gift"></i> </span>--}}
+          {{-- <span class="sidenav-normal  ms-2  ps-1"> Promotions </span>--}}
+          {{-- </a>--}}
+          {{-- </li>--}}
           <li class="nav-item ">
             <a class="nav-link text-white " href="{{ route('admin.gametypes.index') }}">
               <span class="sidenav-mini-icon">G</span>
@@ -110,46 +116,7 @@
       </div>
     </li>
     @endcan
-    <li class="nav-item">
-      <a data-bs-toggle="collapse" href="#profileExample" class="nav-link text-white" aria-controls="pagesExamples" role="button" aria-expanded="false">
-          <i class="fas fa-right-left"></i>
-        <span class="nav-link-text ms-2 ps-1">Transaction</span>
-      </a>
-      <div class="collapse show" id="pagesExamples">
-        <ul class="nav">
-          <li class="nav-item ">
-            <div class="collapse " id="profileExample">
-              <ul class="nav nav-sm flex-column">
-                <li class="nav-item">
-                  <a class="nav-link text-white " href="{{ route('admin.agent.deposit') }}">
-                    <span class="sidenav-mini-icon">R</span>
-                    <span class="sidenav-normal  ms-2  ps-1">Deposit Request</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white " href="{{ route('admin.agent.withdraw')}}">
-                    <span class="sidenav-mini-icon"> P </span>
-                    <span class="sidenav-normal  ms-2  ps-1"> WithDraw Request </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                      <a class="nav-link text-white " href="{{ url('admin/debit-transfer') }}">
-                          <span class="sidenav-mini-icon">R</span>
-                          <span class="sidenav-normal  ms-2  ps-1">DebitTransactionLog</span>
-                      </a>
-                  </li>
-                <li class="nav-item">
-                      <a class="nav-link text-white " href="{{ url('admin/credit-transfer') }}">
-                          <span class="sidenav-mini-icon"> P </span>
-                          <span class="sidenav-normal  ms-2  ps-1">CreditTransactionLog</span>
-                      </a>
-                  </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </li>
+
 
     <li class="nav-item">
       <a href="{{ route('logout') }}" onclick="event.preventDefault();

@@ -35,10 +35,6 @@ class AuthController extends Controller
             return $this->error('', 'Credentail does not match!', 401);
         }
 
-        if ($user->is_changed_password == 0) {
-            return $this->error($user, 'You have to change password', 200);
-        }
-
         if (! Auth::attempt($credentials)) {
             return $this->error('', 'Credentials do not match!', 401);
         }

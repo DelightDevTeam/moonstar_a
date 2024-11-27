@@ -54,30 +54,36 @@
   .submit-btn:hover {
     background-color: #b8328b;
   }
+
   .custom-select-wrapper {
     position: relative;
     display: inline-block;
     width: 100%;
-}
+  }
 
-.custom-select-wrapper::after {
-    content: '\25BC'; /* Unicode character for "downwards black arrow" */
+  .custom-select-wrapper::after {
+    content: '\25BC';
+    /* Unicode character for "downwards black arrow" */
     position: absolute;
     top: 50%;
     right: 15px;
     transform: translateY(-50%);
-    pointer-events: none; /* This makes sure clicks pass through to the select element underneath */
-}
+    pointer-events: none;
+    /* This makes sure clicks pass through to the select element underneath */
+  }
 
-.form-control.custom-select {
-    appearance: none; /* This removes default browser styling */
-    -webkit-appearance: none; /* For Safari */
-    -moz-appearance: none; /* For Firefox */
-    padding-right: 30px; /* Make space for custom arrow */
-}
+  .form-control.custom-select {
+    appearance: none;
+    /* This removes default browser styling */
+    -webkit-appearance: none;
+    /* For Safari */
+    -moz-appearance: none;
+    /* For Firefox */
+    padding-right: 30px;
+    /* Make space for custom arrow */
+  }
 
-/* Add more styling here for the select and wrapper elements as needed */
-
+  /* Add more styling here for the select and wrapper elements as needed */
 </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.min.css">
 @endsection
@@ -102,40 +108,40 @@
             </div>
           </div>
         </div>
-         <div class="card-body">
+        <div class="card-body">
           <form role="form" method="POST" class="text-start" action="{{ route('admin.agent.store') }}">
             @csrf
             <div class="custom-form-group">
               <label for="title">Agent ID <span class="text-danger">*</span></label>
-              <input type="text"  name="user_name" class="form-control" value="{{$agent_name}}" readonly>
+              <input type="text" name="user_name" class="form-control" value="{{$agent_name}}" readonly>
               @error('name')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
-            {{-- <div class="custom-form-group">
+            <div class="custom-form-group">
               <label for="title">Referal Code <span class="text-danger">*</span></label>
-              <input type="text"  name="referral_code" class="form-control" value="{{$referral_code}}">
+              <input type="text" name="referral_code" class="form-control" value="{{$referral_code}}">
               @error('referral_code')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
-            </div> --}}
+            </div>
             <div class="custom-form-group">
               <label for="title">Agent Name <span class="text-danger">*</span></label>
-              <input type="text"  name="name" class="form-control" value="{{old('name')}}" placeholder="Enter Agent Name">
+              <input type="text" name="name" class="form-control" value="{{old('name')}}" placeholder="Enter Agent Name">
               @error('player_name')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
             <div class="custom-form-group">
               <label for="title">Password <span class="text-danger">*</span></label>
-              <input type="text"  name="password" class="form-control" value="{{old('password')}}" placeholder="6-20 characters without spacing">
+              <input type="text" name="password" class="form-control" value="{{old('password')}}" placeholder="6-20 characters without spacing">
               @error('password')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
             <div class="custom-form-group">
               <label for="title">Phone No</label>
-              <input type="text"  name="phone" class="form-control" value="{{old('phone')}}" placeholder="Enter Phone Number">
+              <input type="text" name="phone" class="form-control" value="{{old('phone')}}" placeholder="Enter Phone Number">
               @error('phone')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
@@ -147,24 +153,24 @@
             </div>
             <div class="custom-form-group">
               <label for="title">Amount</label>
-              <input type="text"  name="amount" class="form-control" value="{{old('amount')}}" placeholder="0.00">
+              <input type="text" name="amount" class="form-control" value="{{old('amount')}}" placeholder="0.00">
               @error('amount')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
             {{-- active and inactive with dropdown --}}
             <div class="custom-form-group">
-            <label for="title">Status <span class="text-danger">*</span></label>
-            <div class="custom-select-wrapper">
+              <label for="title">Status <span class="text-danger">*</span></label>
+              <div class="custom-select-wrapper">
                 <select name="status" class="form-control custom-select">
-                    <option value="1">Active</option>
-                    <option value="0">Inactive</option>
+                  <option value="1">Active</option>
+                  <option value="0">Inactive</option>
                 </select>
+              </div>
+              @error('status')
+              <span class="text-danger d-block">*{{ $message }}</span>
+              @enderror
             </div>
-            @error('status')
-            <span class="text-danger d-block">*{{ $message }}</span>
-            @enderror
-          </div>
 
 
             <div class="custom-form-group">
@@ -176,43 +182,43 @@
         </div>
         {{-- <div class="card-body">
           <form role="form" method="POST" class="text-start" action="{{ route('admin.agent.store') }}">
-            @csrf
-            <div class="custom-form-group">
-              <label for="title">Agent Name <span class="text-danger">*</span></label>
-              <input type="text"  name="user_name" class="form-control" value="{{$agent_name}}" readonly>
-              @error('user_name')
-              <span class="text-danger d-block">*{{ $message }}</span>
-              @enderror
-            </div>
-            <div class="custom-form-group">
-              <label for="title">Name <span class="text-danger">*</span></label>
-              <input type="text"  name="name" class="form-control" value="{{old('name')}}">
-              @error('name')
-              <span class="text-danger d-block">*{{ $message }}</span>
-              @enderror
-            </div>
-            <div class="custom-form-group">
-              <label for="title">Phone No <span class="text-danger">*</span></label>
-              <input type="text"  name="phone" class="form-control" value="{{old('phone')}}">
-              @error('phone')
-              <span class="text-danger d-block">*{{ $message }}</span>
-              @enderror
-            </div>
-            <div class="custom-form-group">
-              <label for="title">Password <span class="text-danger">*</span></label>
-              <input type="text"  name="password" class="form-control" value="{{old('password')}}">
-              @error('password')
-              <span class="text-danger d-block">*{{ $message }}</span>
-              @enderror
-            </div>
-            <div class="custom-form-group">
-              <button type="submit" class="btn btn-primary" type="button">Create</button>
-            </div>
-          </form>
-        </div> --}}
-      </div>
+        @csrf
+        <div class="custom-form-group">
+          <label for="title">Agent Name <span class="text-danger">*</span></label>
+          <input type="text" name="user_name" class="form-control" value="{{$agent_name}}" readonly>
+          @error('user_name')
+          <span class="text-danger d-block">*{{ $message }}</span>
+          @enderror
+        </div>
+        <div class="custom-form-group">
+          <label for="title">Name <span class="text-danger">*</span></label>
+          <input type="text" name="name" class="form-control" value="{{old('name')}}">
+          @error('name')
+          <span class="text-danger d-block">*{{ $message }}</span>
+          @enderror
+        </div>
+        <div class="custom-form-group">
+          <label for="title">Phone No <span class="text-danger">*</span></label>
+          <input type="text" name="phone" class="form-control" value="{{old('phone')}}">
+          @error('phone')
+          <span class="text-danger d-block">*{{ $message }}</span>
+          @enderror
+        </div>
+        <div class="custom-form-group">
+          <label for="title">Password <span class="text-danger">*</span></label>
+          <input type="text" name="password" class="form-control" value="{{old('password')}}">
+          @error('password')
+          <span class="text-danger d-block">*{{ $message }}</span>
+          @enderror
+        </div>
+        <div class="custom-form-group">
+          <button type="submit" class="btn btn-primary" type="button">Create</button>
+        </div>
+        </form>
+      </div> --}}
     </div>
   </div>
+</div>
 </div>
 @endsection
 @section('scripts')
@@ -264,7 +270,7 @@
   </table>
   `
   });
-  @elseif(session()->has('error'))
+  @elseif(session() -> has('error'))
   Swal.fire({
     icon: 'error',
     title: errorMessage,
@@ -272,38 +278,39 @@
     timer: 1500
   })
   @endif
-  function copy() {
-       var username= $('#tusername').text();
-        var password= $('#tpassword').text();
-        var tdeposit= $('#tdeposit').text();
-        var copy = "url : "+url+"\nusername : "+username+"\npw : "+password + "n\Transfer Amount :" + tdeposit;
-        copyToClipboard(copy)
-  }
-  function copyToClipboard(v) {
-            var $temp = $("<textarea>");
-            $("body").append($temp);
-            var html = v;
-            $temp.val(html).select();
-            document.execCommand("copy");
-            $temp.remove();
-        }
 
-  </script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        document.getElementById('resetFormButton').addEventListener('click', function () {
-            var form = this.closest('form');
-            form.querySelectorAll('input[type="text"]').forEach(input => {
-                // Resets input fields to their default values
-                input.value = '';
-            });
-            form.querySelectorAll('select').forEach(select => {
-                // Resets select fields to their default selected option
-                select.selectedIndex = 0;
-            });
-            // Add any additional field resets here if necessary
-        });
+  function copy() {
+    var username = $('#tusername').text();
+    var password = $('#tpassword').text();
+    var tdeposit = $('#tdeposit').text();
+    var copy = "url : " + url + "\nusername : " + username + "\npw : " + password + "n\Transfer Amount :" + tdeposit;
+    copyToClipboard(copy)
+  }
+
+  function copyToClipboard(v) {
+    var $temp = $("<textarea>");
+    $("body").append($temp);
+    var html = v;
+    $temp.val(html).select();
+    document.execCommand("copy");
+    $temp.remove();
+  }
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('resetFormButton').addEventListener('click', function() {
+      var form = this.closest('form');
+      form.querySelectorAll('input[type="text"]').forEach(input => {
+        // Resets input fields to their default values
+        input.value = '';
+      });
+      form.querySelectorAll('select').forEach(select => {
+        // Resets select fields to their default selected option
+        select.selectedIndex = 0;
+      });
+      // Add any additional field resets here if necessary
     });
+  });
 </script>
 
 @endsection
