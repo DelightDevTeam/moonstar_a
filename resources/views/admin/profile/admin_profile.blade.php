@@ -3,88 +3,35 @@
 
 <div class="container-fluid my-3 py-3">
     <div class="row mb-5">
-
         <div class="col-lg-9 mt-lg-0 mt-4">
-
-            <div class="card card-body" id="profile">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-sm-auto col-4">
-                        <div class="avatar avatar-xl position-relative">
-                            <img src="{{asset('admin_app/assets/img/drake.jpg')}}" alt="bruce" class="w-100 rounded-circle shadow-sm">
+            <div class="card mt-4" id="password">
+                <div class="card-header">
+                    <h5>Edit Information</h5>
+                </div>
+                <div class="card-body pt-0">
+                    <form role="form" method="POST" class="text-start" action="{{ route('admin.agent.update',$user->id) }}">
+                        @csrf
+                        @method('PUT')
+                        <div class="input-group input-group-outline my-4">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" name="name" value="{{$user->name}}">
                         </div>
-                    </div>
-                    <div class="col-sm-auto col-8 my-auto">
-                        <div class="h-100">
-                            <h5 class="mb-1 font-weight-bolder">
-                                {{$user->name}}
-                            </h5>
-                            <p class="mb-0 font-weight-normal text-sm">
-                           
-                                {{$user->roles[0]['title']}}
-                            </p>
+                        <div class="input-group input-group-outline my-4">
+                            <label class="form-label">ReferralCode</label>
+                            <input type="text" class="form-control" name="name" value="{{$user->referral_code}}" readonly>
                         </div>
-                    </div>
-                    <div class="col-sm-auto ms-sm-auto mt-sm-0 mt-3 d-flex">
-                        <label class="form-check-label mb-0">
-                            <small id="profileVisibility">
-                                Switch to invisible
-                            </small>
-                        </label>
-                        <div class="form-check form-switch ms-2 my-auto">
-                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault23" checked onchange="visible()">
+                        <div class="input-group input-group-outline my-4">
+                            <label class="form-label">Phone No</label>
+                            <input type="text" class="form-control" name="phone" value="{{$user->phone}}">
                         </div>
-                    </div>
+                        <button class="btn bg-gradient-dark btn-sm float-end mt-6 mb-0" type="submit">Update</button>
+                    </form>
                 </div>
             </div>
 
-            {{-- <div class="card mt-4" id="basic-info">
-                <div class="card-header">
-                    <h5>Basic Info</h5>
-                </div>
-                <div class="card-body pt-0">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="input-group input-group-static">
-                                <label>Name</label>
-                                <input type="text" class="form-control" value="{{$user->name}}" readonly>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="input-group input-group-static">
-                                <label>Email</label>
-                                <input type="text" class="form-control" value="{{$user->email}}" readonly>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row mt-4">
-                        <div class="col-6">
-                            <div class="input-group input-group-static">
-                                <label>Phone</label>
-                                <input type="text" class="form-control" value="{{$user->phone}}" readonly>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="input-group input-group-static">
-                                <label>Role</label>
-                                <input type="text" class="form-control" placeholder="" name="role">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-6">
-                            <div class="input-group input-group-static">
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="input-group input-group-static">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div> --}}
-
+        </div>
+        <div class="col-lg-9 mt-lg-0 mt-4">
             <div class="card mt-4" id="password">
                 <div class="card-header">
                     <h5>Change Password</h5>
@@ -103,24 +50,6 @@
                         <label class="form-label">Confirm New password</label>
                         <input type="password" class="form-control" name="password_confirmation">
                     </div>
-                    <h5 class="mt-5">Password requirements</h5>
-                    <p class="text-muted mb-2">
-                        Please follow this guide for a strong password:
-                    </p>
-                    <ul class="text-muted ps-4 mb-0 float-start">
-                        <li>
-                            <span class="text-sm">One special characters</span>
-                        </li>
-                        <li>
-                            <span class="text-sm">Min 6 characters</span>
-                        </li>
-                        <li>
-                            <span class="text-sm">One number (2 are recommended)</span>
-                        </li>
-                        <li>
-                            <span class="text-sm">Change it often</span>
-                        </li>
-                    </ul>
                     <button class="btn bg-gradient-dark btn-sm float-end mt-6 mb-0" type="submit">Update password</button>
                     </form>
                 </div>
@@ -144,6 +73,7 @@
       title: successMessage,
       text: '{{ session('
       SuccessRequest ') }}',
+      background: 'hsl(230, 40%, 10%)',
       timer: 3000,
       showConfirmButton: false
     });
@@ -152,6 +82,7 @@
       icon: 'error',
       title: '',
       text: errorMessage,
+      background: 'hsl(230, 40%, 10%)',
       timer: 3000,
       showConfirmButton: false
     });

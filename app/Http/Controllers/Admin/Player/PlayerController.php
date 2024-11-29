@@ -109,7 +109,6 @@ class PlayerController extends Controller
                     'type' => UserType::Player,
                 ]
             );
-            Log::info('User prepared: '.json_encode($userPrepare));
 
             $player = User::create($userPrepare);
             $player->roles()->sync(self::PLAYER_ROLE);
@@ -125,7 +124,6 @@ class PlayerController extends Controller
                 ->with('username', $player->user_name);
 
         } catch (Exception $e) {
-            Log::error('Error creating user: '.$e->getMessage());
 
             return redirect()->back()->with('error', $e->getMessage());
         }

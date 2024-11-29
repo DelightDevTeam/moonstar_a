@@ -118,14 +118,14 @@
 
             <div class="custom-form-group">
               <label for="title">Name <span class="text-danger">*</span></label>
-              <input type="text"  name="name" class="form-control" value="{{old('name')}}" placeholder="6-20 characters without spacing">
+              <input type="text"  name="name" class="form-control" value="{{old('name')}}" >
               @error('player_name')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
             <div class="custom-form-group">
               <label for="title">Password <span class="text-danger">*</span></label>
-              <input type="text"  name="password" class="form-control" value="{{old('password')}}" placeholder="6-20 characters without spacing">
+              <input type="text"  name="password" class="form-control" value="{{old('password')}}">
               @error('password')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
@@ -192,7 +192,7 @@
 <script>
   var errorMessage = @json(session('error'));
   var successMessage = @json(session('success'));
-  var url = 'https://moonstar-543.vercel.app/login';
+  var url = 'https://moonstar543.live/login';
   var name = @json(session('username'));
   var pw = @json(session('password'));
 

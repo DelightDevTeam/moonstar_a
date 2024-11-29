@@ -142,11 +142,11 @@ class AgentController extends Controller
     public function update(Request $request, string $id)
     {
         abort_if(
-            Gate::denies('agent_update') || ! $this->ifChildOfParent(request()->user()->id, $id),
+            Gate::denies('agent_edit'),
             Response::HTTP_FORBIDDEN,
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
-
+        
         $request->validate([
             'name' => 'required|min:3|unique:users,name,'.$id,
             'player_name' => 'required|string',
