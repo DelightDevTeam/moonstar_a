@@ -30,14 +30,16 @@ class GameTypeProductController extends Controller
 
     public function update(Request $request, $gameTypeId, $productId)
     {
-        $image = $request->file('image');
-        $ext = $image->getClientOriginalExtension();
-        $filename = uniqid('game_type').'.'.$ext;
-        $image->move(public_path('assets/img/game_logo/'), $filename);
-
-        DB::table('game_type_product')->where('game_type_id', $gameTypeId)->where('product_id', $productId)
-            ->update(['image' => $filename]);
-
+        if($request->image)
+        {
+            $image = $request->file('image');
+            $ext = $image->getClientOriginalExtension();
+            $filename = uniqid('game_type').'.'.$ext;
+            $image->move(public_path('assets/img/game_logo/'), $filename);  
+            DB::table('game_type_product')->where('game_type_id', $gameTypeId)->where('product_id', $productId)
+            ->update(['image' => $filename]);  
+        }
+        
         return redirect()->route('admin.gametypes.index');
     }
 }
