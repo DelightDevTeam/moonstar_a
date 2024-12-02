@@ -18,7 +18,7 @@
                         </div>
                         <div class="input-group input-group-outline my-4">
                             <label class="form-label">ReferralCode</label>
-                            <input type="text" class="form-control" name="name" value="{{$user->referral_code}}" readonly>
+                            <input type="text" class="form-control" name="referral_code" value="{{$user->referral_code}}" readonly>
                         </div>
                         <div class="input-group input-group-outline my-4">
                             <label class="form-label">Phone No</label>

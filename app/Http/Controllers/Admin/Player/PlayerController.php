@@ -201,7 +201,7 @@ class PlayerController extends Controller
         );
 
         $user = User::find($id);
-        $user->update(['status' => $user->status == 1 ? 0 : 1]);
+        $user->update(['status' => $user->status == 1 ? 2 : 1]);
 
         return redirect()->back()->with(
             'success',

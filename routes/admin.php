@@ -28,10 +28,6 @@ Route::group([
     'prefix' => 'admin', 'as' => 'admin.',
     'middleware' => ['auth', 'checkBanned']
 ], function () {
-    Route::post('test', function () {
-        dd('here');
-    })->name('test');
-
     Route::post('balance-up', [HomeController::class, 'balanceUp'])->name('balanceUp');
     Route::get('logs/{id}', [HomeController::class, 'logs'])
         ->name('logs');

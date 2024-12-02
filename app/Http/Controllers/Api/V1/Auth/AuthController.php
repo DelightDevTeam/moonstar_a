@@ -31,15 +31,12 @@ class AuthController extends Controller
 
         $user = User::where('user_name', $request->user_name)->first();
 
-        if (! $user || ! Hash::check($request->password, $user->password)) {
-            return $this->error('', 'Credentail does not match!', 401);
-        }
-
         if (! Auth::attempt($credentials)) {
             return $this->error('', 'Credentials do not match!', 401);
         }
 
         $user = User::where('user_name', $request->user_name)->first();
+        
         if (! $user->hasRole('Player')) {
             return $this->error('', 'You are not a player!', 401);
         }
