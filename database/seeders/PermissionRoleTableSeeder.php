@@ -18,18 +18,6 @@ class PermissionRoleTableSeeder extends Seeder
         $admin_permissions = Permission::whereIn('title', [
             'admin_access',
             'agent_access',
-            'role_index',
-            'role_create',
-            'role_store',
-            'role_edit',
-            'role_update',
-            'role_delete',
-            'permission_index',
-            'permission_create',
-            'permission_store',
-            'permission_edit',
-            'permission_update',
-            'permission_delete',
             'agent_index',
             'agent_create',
             'agent_store',
@@ -41,13 +29,11 @@ class PermissionRoleTableSeeder extends Seeder
             'transfer_log',
             'make_transfer',
             'game_type_access',
-            'player_index',
         ]);
         Role::findOrFail(1)->permissions()->sync($admin_permissions->pluck('id'));
         // Admin permissions
         // Agent gets specific permissions
         $agent_permissions = Permission::whereIn('title', [
-            'agent_access',
             'agent_index',
             'agent_create',
             'agent_store',
