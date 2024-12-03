@@ -161,12 +161,14 @@ class PlayerController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, User $player)
+    public function update(Request $request, string $id)
     {
         $request->validate([
             'name' => 'required|string',
-            'phone' => ['nullable', 'regex:/^([0-9\s\-\+\(\)]*)$/', 'unique:users,phone,' . $id],
+            'phone' => ['required', 'regex:/^[0-9]+$/', 'unique:users,phone,' . $id],
         ]);
+        $player = User::find($id);
+        
         $player->update($request->all());
 
         return redirect()->route('admin.player.index')->with('success', 'User updated successfully');

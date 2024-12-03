@@ -149,9 +149,9 @@ class AgentController extends Controller
         
         $request->validate([
             'name' => 'required|string',
-            'phone' => ['nullable', 'regex:/^([0-9\s\-\+\(\)]*)$/', 'unique:users,phone,'.$id],
+            'phone' => ['required', 'regex:/^[0-9]+$/', 'unique:users,phone,' . $id],
         ]);
-
+        
         $user = User::find($id);
         $user->update([
             'name' => $request->name,
