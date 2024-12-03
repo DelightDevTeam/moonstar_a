@@ -86,7 +86,7 @@
       @method('PUT')
       <div class="custom-form-group">
               <label for="title">PlayerId <span class="text-danger">*</span></label>
-              <input type="text"  name="user_name" class="form-control" value="{{$player->name}}" readonly>
+              <input type="text"  name="user_name" class="form-control" value="{{$player->user_name}}" readonly>
               @error('user_name')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
