@@ -10,6 +10,7 @@ use App\Http\Resources\HotGameListResource;
 use App\Models\Admin\GameList;
 use App\Models\Admin\GameType;
 use App\Traits\HttpResponses;
+use Illuminate\Http\Request;
 
 class GameController extends Controller
 {
@@ -97,5 +98,13 @@ class GameController extends Controller
             ->get();
 
         return $this->success(HotGameListResource::collection($gameLists), 'Hot Game Detail Successfully');
+    }
+
+    public function gameFilter(Request $request)
+    {
+        $gameLists = GameList::where('name', 'like', '%' . $request->name . '%')->get();
+
+        return $this->success(GameDetailResource::collection($gameLists), 'Game Detail Successfully');
+
     }
 }
