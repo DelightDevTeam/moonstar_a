@@ -148,8 +148,7 @@ class AgentController extends Controller
         );
         
         $request->validate([
-            'name' => 'required|min:3|unique:users,name,'.$id,
-            'player_name' => 'required|string',
+            'name' => 'required|string',
             'phone' => ['nullable', 'regex:/^([0-9\s\-\+\(\)]*)$/', 'unique:users,phone,'.$id],
         ]);
 
@@ -157,7 +156,6 @@ class AgentController extends Controller
         $user->update([
             'name' => $request->name,
             'phone' => $request->phone,
-            'player_name' => $request->player_name,
         ]);
 
         return redirect()->back()

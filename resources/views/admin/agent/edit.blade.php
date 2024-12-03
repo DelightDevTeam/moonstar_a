@@ -83,7 +83,7 @@
             @csrf
             @method('PUT')
             <div class="custom-form-group">
-              <label for="title">Agent Id <span class="text-danger">*</span></label>
+              <label for="title">AgentId <span class="text-danger">*</span></label>
               <input type="text"  name="user_name" class="form-control" value="{{$agent->user_name}}" readonly>
               @error('name')
               <span class="text-danger d-block">*{{ $message }}</span>
@@ -91,8 +91,8 @@
             </div>
             <div class="custom-form-group">
               <label for="title">Agent Name <span class="text-danger">*</span></label>
-              <input type="text"  name="player_name" class="form-control" value="{{$agent->name}}">
-              @error('player_name')
+              <input type="text"  name="name" class="form-control" value="{{$agent->name}}">
+              @error('name')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>

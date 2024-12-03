@@ -122,7 +122,6 @@ class PlayerController extends Controller
                 ->with('url', env('APP_URL'))
                 ->with('password', $request->password)
                 ->with('username', $player->user_name);
-
         } catch (Exception $e) {
 
             return redirect()->back()->with('error', $e->getMessage());
@@ -164,7 +163,10 @@ class PlayerController extends Controller
      */
     public function update(Request $request, User $player)
     {
-
+        $request->validate([
+            'name' => 'required|string',
+            'phone' => ['nullable', 'regex:/^([0-9\s\-\+\(\)]*)$/', 'unique:users,phone,' . $id],
+        ]);
         $player->update($request->all());
 
         return redirect()->route('admin.player.index')->with('success', 'User updated successfully');
@@ -205,7 +207,7 @@ class PlayerController extends Controller
 
         return redirect()->back()->with(
             'success',
-            'User '.($user->status == 1 ? 'activate' : 'inactive').' successfully'
+            'User ' . ($user->status == 1 ? 'activate' : 'inactive') . ' successfully'
         );
     }
 
@@ -319,7 +321,7 @@ class PlayerController extends Controller
     {
         $randomNumber = mt_rand(10000000, 99999999);
 
-        return 'P'.$randomNumber;
+        return 'P' . $randomNumber;
     }
 
     private function getRefrenceId($prefix = 'REF')
