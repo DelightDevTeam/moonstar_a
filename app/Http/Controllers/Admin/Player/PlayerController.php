@@ -168,7 +168,7 @@ class PlayerController extends Controller
             'phone' => ['required', 'regex:/^[0-9]+$/', 'unique:users,phone,' . $id],
         ]);
         $player = User::find($id);
-        
+
         $player->update($request->all());
 
         return redirect()->route('admin.player.index')->with('success', 'User updated successfully');
@@ -226,13 +226,6 @@ class PlayerController extends Controller
 
     public function makeCashIn(TransferLogRequest $request, User $player)
     {
-        abort_if(
-            Gate::denies('make_transfer') || ! $this->ifChildOfParent(request()->user()->id, $player->id),
-            Response::HTTP_FORBIDDEN,
-            '403 Forbidden |You cannot  Access this page because you do not have permission'
-        );
-
-        try {
             $inputs = $request->validated();
             $inputs['refrence_id'] = $this->getRefrenceId();
 
@@ -241,17 +234,13 @@ class PlayerController extends Controller
 
             if ($cashIn > $agent->balanceFloat) {
 
+
                 return redirect()->back()->with('error', 'You do not have enough balance to transfer!');
             }
-
-            app(WalletService::class)->transfer($agent, $player, $request->validated('amount'), TransactionName::CreditTransfer, ['note' => $$request->note]);
+            app(WalletService::class)->transfer($agent,$player, $request->validated('amount'), TransactionName::CreditTransfer, ['note' => $request->note]);
 
             return redirect()->back()
                 ->with('success', 'CashIn submitted successfully!');
-        } catch (Exception $e) {
-
-            return redirect()->back()->with('error', $e->getMessage());
-        }
     }
 
     public function getCashOut(User $player)

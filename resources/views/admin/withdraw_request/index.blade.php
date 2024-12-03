@@ -142,7 +142,7 @@
         timer: 1500
     })
 </script>
-@else
+@elseif(session()->has('error'))
 <script>
     Swal.fire({
         icon: 'error',
