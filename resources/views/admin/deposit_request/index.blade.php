@@ -104,8 +104,13 @@
 @endsection
 @section('scripts')
 <script src="{{ asset('admin_app/assets/js/plugins/datatables.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
 
 <script>
+  var errorMessage = @json(session('error'));
+  var successMessage = @json(session('success'));
+
   if (document.getElementById('users-search')) {
     const dataTableSearch = new simpleDatatables.DataTable("#users-search", {
       searchable: true,
@@ -130,11 +135,29 @@
       });
     });
   };
-</script>
-<script>
+
   var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
   var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
   })
 </script>
+@if(session()->has('success'))
+<script>
+    Swal.fire({
+        icon: 'success',
+        title: successMessage,
+        showConfirmButton: false,
+        timer: 1500
+    })
+</script>
+@elseif(session()->has('error'))
+<script>
+    Swal.fire({
+        icon: 'error',
+        title: errorMessage,
+        showConfirmButton: false,
+        timer: 1500
+    })
+</script>
+@endif
 @endsection

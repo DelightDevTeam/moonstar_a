@@ -24,18 +24,18 @@ class DepositRequestController extends Controller
     // amk
     public function statusChangeIndex(Request $request, DepositRequest $deposit)
     {
-    $request->validate([
-        'status' => 'required|in:0,1,2',
-        'amount' => 'required|numeric|min:0',
-        'player' => 'required|exists:users,id',
-    ]);
+        $request->validate([
+            'status' => 'required|in:0,1,2',
+            'amount' => 'required|numeric|min:0',
+            'player' => 'required|exists:users,id',
+        ]);
 
-    try {
+
         $agent = Auth::user();
         $player = User::find($request->player);
 
         // Check if the status is being approved and balance is sufficient
-        if ($request->status == 1 && $agent->balance < $request->amount) {
+        if ($request->status == 1 && $agent->balanceFloat < $request->amount) {
             return redirect()->back()->with('error', 'You do not have enough balance to transfer!');
         }
 
@@ -50,10 +50,7 @@ class DepositRequestController extends Controller
         }
 
         return redirect()->route('admin.agent.deposit')->with('success', 'Deposit status updated successfully!');
-    } catch (Exception $e) {
-        return back()->with('error', $e->getMessage());
     }
-}
 
     public function statusChangeReject(Request $request, DepositRequest $deposit)
     {
@@ -72,6 +69,4 @@ class DepositRequestController extends Controller
             return back()->with('error', $e->getMessage());
         }
     }
-
-
 }

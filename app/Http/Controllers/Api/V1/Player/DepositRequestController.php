@@ -16,7 +16,6 @@ class DepositRequestController extends Controller
 
     public function deposit(DepositRequest $request)
     {
-        try {
             $player = Auth::user();
 
             $deposit = ModelsDepositRequest::create([
@@ -27,11 +26,7 @@ class DepositRequestController extends Controller
                 'refrence_no' => $request->refrence_no,
                 'note' => $request->note,
             ]);
-
             return $this->success($deposit, 'Deposit Request Success');
-        } catch (Exception $e) {
-            $this->error('', $e->getMessage(), 401);
-        }
     }
 
     public function log()
