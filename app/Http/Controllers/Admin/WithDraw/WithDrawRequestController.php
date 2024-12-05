@@ -31,8 +31,8 @@ class WithDrawRequestController extends Controller
             $player = User::find($request->player);
 
             // Check if the status is being approved and balance is sufficient
-            if ($request->status == 1 && $agent->balanceFloat < $request->amount) {
-                return redirect()->back()->with('error', 'You do not have enough balance to transfer!');
+            if ($request->status == 1 && $player->balanceFloat < $request->amount) {
+                return redirect()->back()->with('error', 'Player does not have enough balance to transfer!');
             }
             if ($request->status == 1) {
                 $withdraw->update([
